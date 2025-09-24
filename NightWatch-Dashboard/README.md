@@ -1,7 +1,7 @@
 # Welcome to NightWatch EDR Project
 
 ## Project info
-- Developing By:
+Developing By:
 - Nitin Sikarwar
 - Piyush Kumar
 - Sumit Kumar Swain
