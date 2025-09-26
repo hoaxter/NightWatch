@@ -58,12 +58,9 @@ This project is built with:
 not deployed now
 
 
-## Code Contributors:
 
-<a href="https://github.com/StarStark07">
-  <img src="https://avatars.githubusercontent.com/u/112632845?v=4" width="60px;" style="border-radius:50%;" alt="Piyush Kumar"/>
-</a>
-<a href="https://github.com/AussBru">
-  <img src="https://avatars.githubusercontent.com/u/145895688?v=4" width="60px;" style="border-radius:50%;" alt="Sumit Kumar Swain"/>
-</a>
+## Code Contributors:
+![Contributors](https://contrib.rocks/image?repo=hoaxter/NightWatch&avatars=StarStark07,AussBru)
+
+
 
