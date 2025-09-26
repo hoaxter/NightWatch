@@ -60,7 +60,12 @@ not deployed now
 
 
 ## Code Contributors:
-![Contributors](https://contrib.rocks/image?repo=hoaxter/NightWatch&avatars=StarStark07,AussBru)
 
+<a href="https://github.com/StarStark07" target="_blank">
+  <img src="https://github.com/StarStark07.png" width="60px" style="border-radius:50%;" alt="Piyush Kumar"/>
+</a>
+<a href="https://github.com/AussBru" target="_blank">
+  <img src="https://github.com/AussBru.png" width="60px" style="border-radius:50%;" alt="Sumit Kumar Swain"/>
+</a>
 
 
