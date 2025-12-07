@@ -9,8 +9,6 @@ NightWatch is a Python-based **Endpoint Detection and Response (EDR)** mini-fram
 
 It uses **multi-threaded background monitoring** and a **Flask-based web dashboard** to show real-time alerts, system statistics and suspicious activity.
 
-> ⚠️ NightWatch is built for **learning, labs and demos**, not as a production-grade security product.
-
 ---
 
 ## ✨ Features
@@ -62,7 +60,8 @@ NightWatch/
 ├─ requirements.txt         # Python dependencies
 └─ README.md
 ```
-
+Installation Steps
+```
 - git clone <your-repo-url> NightWatch
 - cd NightWatch
 
@@ -72,4 +71,4 @@ NightWatch/
 - pip install -r requirements.txt
 
 - python app.py
-
+```
