@@ -5,7 +5,7 @@ NightWatch is a Python-based **Endpoint Detection and Response (EDR)** mini-fram
 - Running processes  
 - Network connections  
 - File system activity  
-- (Optionally) Windows registry and event logs  
+- Windows registry and event logs  
 
 It uses **multi-threaded background monitoring** and a **Flask-based web dashboard** to show real-time alerts, system statistics and suspicious activity.
 
@@ -71,4 +71,6 @@ Installation Steps
 - pip install -r requirements.txt
 
 - python app.py
+
+- python check.py (to simulate the Attack Scenerio)
 ```
