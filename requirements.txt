@@ -1,0 +1,6 @@
+flask
+sqlalchemy
+psutil
+watchdog
+requests
+pywin32; sys_platform == 'win32'
