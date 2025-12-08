@@ -52,11 +52,11 @@ Your project may look like this (adjust names if different):
 ```text
 NightWatch/
 ├─ app.py        # Main EDR script (agent + Flask dashboard)
+├─ check.py      # Malicious Script
 ├─ templates/
 │  └─ index.html            # Dashboard HTML
 ├─ static/
 │  ├─ style.css             # Optional CSS
-│  └─ main.js               # Optional JS for frontend
 ├─ requirements.txt         # Python dependencies
 └─ README.md
 ```
