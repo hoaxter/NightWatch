@@ -16,10 +16,9 @@ except ImportError:
 
 app = Flask(__name__)
 
-# ---------------- CONFIG ----------------
 
 CONFIG = {
-    "blacklisted_ips": {"1.2.3.4", "5.6.7.8"},  # add "127.0.0.1" for easy testing
+    "blacklisted_ips": {"1.2.3.4", "5.6.7.8"},  
     "suspicious_ports": {4444, 1337, 6666, 9001},
 
     "suspicious_parents": {
@@ -110,7 +109,21 @@ lock_fs = threading.Lock()
 lock_baseline = threading.Lock()
 
 
-# ------------- helper utils -------------
+def severity_from_process(score: int, flags: list, hash_hit: bool) -> str:
+    if hash_hit:
+        return "high"
+    if score >= 7:
+        return "high"
+    elif score >= 4:
+        return "medium"
+    else:
+        return "low"
+def severity_from_network(flags: list) -> str:
+    if any("Blacklisted IP" in f for f in flags):
+        return "high"
+    if any("Suspicious port" in f for f in flags):
+        return "medium"
+    return "low"
 
 def now_str():
     return datetime.now().strftime("%H:%M:%S")
