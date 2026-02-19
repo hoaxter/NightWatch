@@ -11,7 +11,7 @@ It uses **multi-threaded background monitoring** and a **Flask-based web dashboa
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Process Monitoring**
   - Tracks running processes, their paths, CPU/RAM usage and command lines.
@@ -45,7 +45,7 @@ It uses **multi-threaded background monitoring** and a **Flask-based web dashboa
 
 ---
 
-## 🧱 Project Structure (example)
+## Project Structure (example)
 
 Your project may look like this (adjust names if different):
 
